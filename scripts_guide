@@ -24,7 +24,9 @@ npm --version
 
 #Copy Build files 
 sudo cp -r /var/www/html/Mobalysis22/frontend/build/* /var/www/html
-sudo rm -rf index.nginx.debian.html
+cd /var/www/html/
+ls -l 
+sudo rm -rf index.nginx-debian.html
 
 #Restart nginx
 sudo systemctl restart nginx
