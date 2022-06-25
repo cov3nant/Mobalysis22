@@ -18,6 +18,7 @@ cd /var/www/html/
 sudo git clone https://github.com/mejja/Mobalysis22.git
 cd Mobalysis/frontend
 sudo apt npm install
+sudo npm install
 sudo npm run build
 npm --version
 
