@@ -23,7 +23,7 @@ sudo npm run build
 npm --version
 
 #Copy Build files 
-sudo cp -r /var/www/html/Mobalysis/frontend/build/* /var/www/html
+sudo cp -r /var/www/html/Mobalysis22/frontend/build/* /var/www/html
 sudo rm -rf index.nginx.debian.html
 
 #Restart nginx
